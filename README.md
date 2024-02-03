@@ -1,52 +1,31 @@
-# About Antville
-
-Antville is an open source project providing a high performance, feature-rich blog hosting software. Antville can host tens of thousands of blogs. Server power is the only limit. Installation and use is easy.
-
-Antville is written in server-side JavaScript and developed with Helma Object Publisher. Antville works with a relational database in the back-end.
-
-[Look at the project site for more information.](https://project.antville.org)
-
-## Status
-
-Antville’s codebase is of stable quality and ready for production deployment. Try out [Antville.org](https://antville.org) for a demonstration.
-
-There still could be bugs hidden in Antville’s source code. If you find one please let us know. The creators of Antville do not take any responsibility for what the software might do.
-
-## System Requirements
-
-To run Antville you need [Helma Object Publisher](https://github.com/antville/helma) and a relational database software. We tested Antville with [PostgreSQL](https://postgresql.org) and [MySQL](https://mysql.com) – [MariaDB](https://mariadb.com) should work, too.
-
-To enable Antville sending notification e-mails you need access to an SMTP server.
-
-Helma comes with an embedded webserver (Jetty) so you do not need to install one. Yet, you can also use the webserver of your choice.
-
-For details please refer to the installation instructions of Helma Object Publisher and the corresponding software packages.
-
-The `INSTALL.md` file contains detailed instructions to install Antville.
-
-## Documentation and Further Information
-
-For documentation and further information about Antville you can refer to:
-- [project.antville.org](https://project.antville.org)
-- [about.antville.org](https://about.antville.org)
-- [help.antville.org](https://help.antville.org)
-
-Feel free to ask any question about Antville at our [support site](https://help.antville.org).
-
-## Bug Reporting and Feature Requests
-
-If you think you found a bug [please let us know](https://project.antville.org).
-
-A great place for your feature requests or proposals is the [project development site](https://project.antville.org).
-
-Antville is open-source, and we want to encourage you to change its code according to your likeness. We are curious about your ideas and suggestions. Feel free to drop us a message to <mail@antville.org> or through any channels mentioned before.
-
-## About Helma Object Publisher
-
-[Helma Object Publisher](https://github.com/antville/helma) is an open source project providing a powerful, fast and scriptable web application server written in Java. 
-
-Define HopObjects and map them to a relational database table. Create, change and delete HopObjects at your whim using a comfortable object-container model. Manual fiddling around with database code is not necessary.
-
-HopObjects extend the native JavaScript object. They got all the common features you know – and more. One highlight are the special templating features to ease the rendering of objects for the Web.
-
-Combine HopObjects to create a hierarchical structure. A URL in Helma mirrors this structure. Each part of the URL path corresponds to a relational database mapping, similar to the document tree of static websites. Helma’s URL space is an analogy to the Document Object Model implemented in client-side JavaScript.
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><h1 tabindex="-1" dir="auto"><a id="user-content-about-antville" class="anchor" aria-hidden="true" tabindex="-1" href="#about-antville"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于安特维尔</font></font></h1>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Antville 是一个开源项目，提供高性能、功能丰富的博客托管软件。</font><font style="vertical-align: inherit;">Antville 可以托管数以万计的博客。</font><font style="vertical-align: inherit;">服务器功率是唯一的限制。</font><font style="vertical-align: inherit;">安装和使用都很简单。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Antville 是用服务器端 JavaScript 编写的，并使用 Helma Object Publisher 进行开发。</font><font style="vertical-align: inherit;">Antville 在后端使用关系数据库。</font></font></p>
+<p dir="auto"><a href="https://project.antville.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请查看项目网站以获取更多信息。</font></font></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-status" class="anchor" aria-hidden="true" tabindex="-1" href="#status"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">地位</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Antville 的代码库质量稳定，可用于生产部署。</font><font style="vertical-align: inherit;">尝试</font></font><a href="https://antville.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Antville.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行演示。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Antville 的源代码中仍然可能隐藏着错误。</font><font style="vertical-align: inherit;">如果您找到了，请告诉我们。</font><font style="vertical-align: inherit;">Antville 的创建者对该软件的功能不承担任何责任。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-system-requirements" class="anchor" aria-hidden="true" tabindex="-1" href="#system-requirements"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">系统要求</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要运行 Antville，您需要</font></font><a href="https://github.com/antville/helma"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Helma Object Publisher</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和关系数据库软件。</font><font style="vertical-align: inherit;">我们使用</font></font><a href="https://postgresql.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PostgreSQL</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://mysql.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MySQL</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测试了 Antville – </font></font><a href="https://mariadb.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MariaDB</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也应该可以工作。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要启用 Antville 发送通知电子邮件，您需要访问 SMTP 服务器。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Helma 附带一个嵌入式网络服务器 (Jetty)，因此您无需安装。</font><font style="vertical-align: inherit;">然而，您也可以使用您选择的网络服务器。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">详细信息请参考Helma Object Publisher及相应软件包的安装说明。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><code>INSTALL.md</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件包含安装 Antville 的详细说明。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-documentation-and-further-information" class="anchor" aria-hidden="true" tabindex="-1" href="#documentation-and-further-information"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件和更多信息</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关 Antville 的文档和更多信息，您可以参考：</font></font></p>
+<ul dir="auto">
+<li><a href="https://project.antville.org" rel="nofollow">project.antville.org</a></li>
+<li><a href="https://about.antville.org" rel="nofollow">about.antville.org</a></li>
+<li><a href="https://help.antville.org" rel="nofollow">help.antville.org</a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://help.antville.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请随时在我们的支持网站</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上询问有关 Antville 的任何问题</font><font style="vertical-align: inherit;">。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-bug-reporting-and-feature-requests" class="anchor" aria-hidden="true" tabindex="-1" href="#bug-reporting-and-feature-requests"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">错误报告和功能请求</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您认为发现了错误，</font></font><a href="https://project.antville.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请告诉我们</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://project.antville.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目开发网站</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是您提出功能请求或建议的好地方</font><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Antville 是开源的，我们希望鼓励您根据自己的喜好更改其代码。</font><font style="vertical-align: inherit;">我们对您的想法和建议感到好奇。</font></font><a href="mailto:mail@antville.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请随时向mail@antville.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或通过前面提到的任何渠道给我们留言</font><font style="vertical-align: inherit;">。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-about-helma-object-publisher" class="anchor" aria-hidden="true" tabindex="-1" href="#about-helma-object-publisher"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于 Helma 对象发布者</font></font></h2>
+<p dir="auto"><a href="https://github.com/antville/helma"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Helma Object Publisher</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个开源项目，提供用 Java 编写的功能强大、快速且可编写脚本的 Web 应用程序服务器。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">定义 HopObjects 并将它们映射到关系数据库表。</font><font style="vertical-align: inherit;">使用舒适的对象容器模型随心所欲地创建、更改和删除 HopObject。</font><font style="vertical-align: inherit;">不需要手动摆弄数据库代码。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HopObjects 扩展了原生 JavaScript 对象。</font><font style="vertical-align: inherit;">他们拥有您所知道的所有共同特征 - 甚至更多。</font><font style="vertical-align: inherit;">其中一个亮点是特殊的模板功能，可以简化 Web 对象的渲染。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组合 HopObjects 以创建层次结构。</font><font style="vertical-align: inherit;">Helma 中的 URL 反映了这种结构。</font><font style="vertical-align: inherit;">URL路径的每一部分对应一个关系数据库映射，类似于静态网站的文档树。</font><font style="vertical-align: inherit;">Helma 的 URL 空间类似于客户端 JavaScript 中实现的文档对象模型。</font></font></p>
+</article></div>
